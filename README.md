@@ -31,7 +31,7 @@ on [CUB-200-2011](http://www.vision.caltech.edu/visipedia/CUB-200.html), [ILSVRC
 ## Dependencies
 
 * Python 3
-* PyTorch 1.7.1
+* Paddlepaddle 2.1.0
 * OpenCV-Python
 * Numpy
 * Scipy
