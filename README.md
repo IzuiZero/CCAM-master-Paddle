@@ -1,6 +1,5 @@
 # C2AM (Unsupervised)
 ## Update (2022-12-12)
-We update the evaluation results using ResNet50 as both localization and classfication backbone. Table is also updated in our [Arxiv paper](https://arxiv.org/abs/2203.13505).
 
 | Method    | Loc Back. | Cls Back.  | CUB (top1/top5 loc)  | CUB (GT-Known)  | ImageNet (top1/top5 loc) | ImageNet (GT-Known) |
 |:---------:|:-----------:|:----:|:----:|:----:|:----:|:----:|
@@ -115,25 +114,3 @@ As CCAM is an unsupervised method, it can be applied to various scenarios, like 
 cd CUSTOM
 ```
 
-
-
-## Reference
-
-If you are using our code, please consider citing our paper.
-
-```
-@InProceedings{Xie_2022_CVPR,
-    author    = {Xie, Jinheng and Xiang, Jianfeng and Chen, Junliang and Hou, Xianxu and Zhao, Xiaodong and Shen, Linlin},
-    title     = {C2AM: Contrastive Learning of Class-Agnostic Activation Map for Weakly Supervised Object Localization and Semantic Segmentation},
-    booktitle = {Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)},
-    month     = {June},
-    year      = {2022},
-    pages     = {989-998}
-}
-@article{xie2022contrastive,
-  title={Contrastive learning of Class-agnostic Activation Map for Weakly Supervised Object Localization and Semantic Segmentation},
-  author={Xie, Jinheng and Xiang, Jianfeng and Chen, Junliang and Hou, Xianxu and Zhao, Xiaodong and Shen, Linlin},
-  journal={arXiv preprint arXiv:2203.13505},
-  year={2022}
-}
-```
